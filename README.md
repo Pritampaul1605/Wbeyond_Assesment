@@ -19,6 +19,30 @@ Running the Project
 
 1. Prepare the Dataset
 
-Place the dataset (oil_sales_data.csv) inside the data/ folder.
+    Place the dataset inside the data/ folder.
 
-Ensure the file format and column names match the expected input.
+    Ensure the file format and column names match the expected input.
+
+
+   📂 oil-price-prediction
+│-- 📂 data
+│   ├── oil_sales_data.csv  # Raw dataset
+│-- 📂 models
+│   ├── trained_model   # Saved trained model
+│-- 📂 notebooks
+│   ├── EDA          # Exploratory Data Analysis
+│-- 📂 scripts
+│   ├── train           # Model training script
+│   ├── predict          # Prediction script
+│-- requirements.txt        # Dependencies
+│-- README.md               # Project documentation
+
+
+### Dependencies
+####    Main dependencies include:
+        pandas
+        numpy
+        scikit-learn
+        matplotlib
+        seaborn
+        pmdarima  

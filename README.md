@@ -25,17 +25,18 @@ Running the Project
 
 
    📂 oil-price-prediction
-│-- 📂 data
-│   ├── oil_sales_data.csv  # Raw dataset
-│-- 📂 models
-│   ├── trained_model   # Saved trained model
-│-- 📂 notebooks
-│   ├── EDA          # Exploratory Data Analysis
-│-- 📂 scripts
-│   ├── train           # Model training script
-│   ├── predict          # Prediction script
-│-- requirements.txt        # Dependencies
-│-- README.md               # Project documentation
+   
+        │-- 📂 data
+        │   ├── oil_sales_data.csv  # Raw dataset
+        │-- 📂 models
+        │   ├── trained_model   # Saved trained model
+        │-- 📂 notebooks
+        │   ├── EDA          # Exploratory Data Analysis
+        │-- 📂 scripts
+        │   ├── train           # Model training script
+        │   ├── predict          # Prediction script
+        │-- requirements.txt        # Dependencies
+        │-- README.md               # Project documentation
 
 
 ### Dependencies
